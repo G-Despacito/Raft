@@ -1,10 +1,6 @@
 package raft
 
 //
-// this is an outline of the API that raft must expose to
-// the service (or tester). see comments below for
-// each of these functions for more details.
-//
 // rf = Make(...)
 //   create a new Raft server.
 // rf.Start(command interface{}) (index, term, isleader)
@@ -28,7 +24,6 @@ import (
 	"sync/atomic"
 	"time"
 
-	//	"6.824/labgob"
 	"6.824/labgob"
 	"6.824/labrpc"
 )
